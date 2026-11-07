@@ -1,0 +1,74 @@
+{
+  "rows_initial": 29965,
+  "cols_initial": 24,
+  "id_dropped": false,
+  "missing_values_total": 0,
+  "duplicates_removed": 0,
+  "rows_after_dedup": 29965,
+  "education_recoded_rows": {
+    "0": 0,
+    "5": 0,
+    "6": 0
+  },
+  "marriage_recoded_rows": 0,
+  "recoded_pct_education": 0.0,
+  "recoded_pct_marriage": 0.0,
+  "pay_range": [
+    -2,
+    8
+  ],
+  "pay_value_counts": {
+    "-2": 24256,
+    "-1": 34616,
+    "0": 95919,
+    "1": 3701,
+    "2": 18962,
+    "3": 1430,
+    "4": 449,
+    "5": 137,
+    "6": 74,
+    "7": 218,
+    "8": 28
+  },
+  "bill_amt_negative_cells": 3932,
+  "bill_amt_negative_rows": 1930,
+  "outlier_clipping": "none",
+  "rows_final": 29965,
+  "cols_final": 24,
+  "columns_final": [
+    "LIMIT_BAL",
+    "SEX",
+    "EDUCATION",
+    "MARRIAGE",
+    "AGE",
+    "PAY_1",
+    "PAY_2",
+    "PAY_3",
+    "PAY_4",
+    "PAY_5",
+    "PAY_6",
+    "BILL_AMT1",
+    "BILL_AMT2",
+    "BILL_AMT3",
+    "BILL_AMT4",
+    "BILL_AMT5",
+    "BILL_AMT6",
+    "PAY_AMT1",
+    "PAY_AMT2",
+    "PAY_AMT3",
+    "PAY_AMT4",
+    "PAY_AMT5",
+    "PAY_AMT6",
+    "default"
+  ],
+  "label_distribution": {
+    "0": 23335,
+    "1": 6630
+  },
+  "default_rate": 0.2213
+}
+{
+  "n_rows_raw": 30000,
+  "n_duplicates_removed": 35,
+  "n_rows_clean": 29965
+}
