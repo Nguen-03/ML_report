@@ -38,5 +38,16 @@
     },
     "fast": false,
     "seconds": 1274.5
+  },
+  "final": {
+    "model": "GB – balanced",
+    "thresholds": {
+      "f1": 0.56,
+      "youden": 0.55,
+      "cost": 0.34
+    },
+    "test_sha256": "0e818291000925a40caa6bd4a8fcac09b213bb9e9c8b2332659987df20e91ece",
+    "bootstrap": 1000,
+    "seconds": 2.7
   }
 }

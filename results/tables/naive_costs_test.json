@@ -1,0 +1,12 @@
+{
+  "n": 4495,
+  "n1": 994,
+  "n0": 3501,
+  "accept_all": 4970.0,
+  "reject_all": 3501.0,
+  "accept_all_per_customer": 1.1056729699666297,
+  "reject_all_per_customer": 0.7788654060066741,
+  "reject_all_precision": 0.2211345939933259,
+  "reject_all_f1": 0.3621789032610676,
+  "best_naive": 3501.0
+}

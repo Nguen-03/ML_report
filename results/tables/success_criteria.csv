@@ -1,0 +1,4 @@
+metric,reference,result,passed
+Recall,>= 0.60,0.8430583501006036,True
+Precision,>= 0.35,0.3210727969348659,False
+F1,>= 0.44,0.4650388457269701,True
