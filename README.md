@@ -1,8 +1,3 @@
-## Cấu trúc thư mục dự án (Project Structure)
-
-Mã nguồn được tổ chức theo mô hình mô-đun hóa, tách biệt giữa dữ liệu, mã nguồn xử lý và kết quả đầu ra. File kịch bản trung tâm `run_experiment.py` phối hợp toàn bộ quy trình từ dữ liệu thô đến việc xuất bảng biểu và hình vẽ.
-
-```text
 my_project/
 ├── data/                      # Thư mục chứa dữ liệu (Đã thêm vào .gitignore)
 │   ├── raw/                   # Dữ liệu thô ban đầu (bất biến)
@@ -24,4 +19,3 @@ my_project/
 ├── .gitignore                 # Chặn đẩy thư mục data/ và các tệp tin tạm lên kho mã nguồn
 ├── requirements.txt           # Danh sách các thư viện và phiên bản cụ thể cần cài đặt
 └── run_experiment.py          # 🚀 Kịch bản duy nhất điều khiển toàn bộ thí nghiệm (Orchestrator)
-```
