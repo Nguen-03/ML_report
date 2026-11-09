@@ -1,0 +1,8 @@
+﻿Chỉ số,Trước xử lý,Sau xử lý,Ghi chú
+Số dòng,30000.0,30000,Không có dòng trùng trong dữ liệu gốc.
+Giá trị thiếu,0.0,0 sau pipeline,Imputer được fit trên train; bộ dữ liệu hiện tại không có giá trị thiếu.
+Mã EDUCATION chưa chuẩn (0/5/6),345.0,0,Gộp vào mã 4.
+Mã MARRIAGE chưa chuẩn (0),54.0,0,Gộp vào mã 3.
+Ngoại lai theo IQR (tổng lượt qua các cột),32697.0,32697,"Giữ nguyên quan sát; RobustScaler giảm ảnh hưởng, không xóa ngoại lai."
+ID được dùng làm đặc trưng,1.0,0,"ID duy nhất, chỉ là định danh; loại khỏi X."
+Tỷ lệ lớp vỡ nợ (%),22.12,22.12,Không cân bằng lại; stratified split bảo toàn phân phối.

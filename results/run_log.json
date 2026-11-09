@@ -1,5 +1,42 @@
 {
-  "n_rows_raw": 29965,
-  "n_duplicates_removed": 0,
-  "n_rows_clean": 29965
+  "data": {
+    "n_raw": 30000,
+    "positives_raw": 6636,
+    "n_duplicates_removed": 35,
+    "education_recoded": 345,
+    "marriage_recoded": 54,
+    "n_clean": 29965,
+    "positives_clean": 6630,
+    "default_rate_clean": 0.22125813449023862
+  },
+  "split": {
+    "train": 20975,
+    "val": 4495,
+    "test": 4495,
+    "sha256_test": "0e818291000925a40caa6bd4a8fcac09b213bb9e9c8b2332659987df20e91ece",
+    "positives": {
+      "train": 4641,
+      "val": 995
+    }
+  },
+  "environment": {
+    "python": "3.13.5",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "scikit-learn": "1.9.1",
+    "pandas": "3.1.0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "joblib": "1.6.0"
+  },
+  "dev": {
+    "selected": "GB – balanced",
+    "thresholds": {
+      "f1": 0.56,
+      "youden": 0.55,
+      "cost": 0.34
+    },
+    "fast": false,
+    "seconds": 1274.5
+  }
 }

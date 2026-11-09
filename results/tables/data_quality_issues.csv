@@ -1,0 +1,24 @@
+﻿Vấn đề,Biến,Số lượng,Tỷ lệ (%),Phương án xử lý
+Giá trị thiếu,Toàn bộ dữ liệu,0,0.0,Impute median/mode trong pipeline; không fit trước khi chia tập.
+Bản ghi trùng hoàn toàn,Toàn bộ dữ liệu,0,0.0,Loại bản ghi trùng nếu có.
+Sai định dạng số,Các biến đầu vào,0,0.0,Chuyển kiểu có kiểm tra; lỗi được tính là thiếu và xử lý trong pipeline.
+Mã EDUCATION chưa chuẩn,EDUCATION,345,1.15,"Gộp mã 0, 5, 6 thành nhóm 4 (không xác định/khác)."
+Mã MARRIAGE chưa chuẩn,MARRIAGE,54,0.18,Gộp mã 0 vào nhóm 3 (khác/không xác định).
+Ngoại lai theo quy tắc IQR,LIMIT_BAL,167,0.56,Giữ lại vì là giá trị tài chính/tuổi có thể hợp lệ; giảm ảnh hưởng bằng RobustScaler.
+Ngoại lai theo quy tắc IQR,AGE,272,0.91,Giữ lại vì là giá trị tài chính/tuổi có thể hợp lệ; giảm ảnh hưởng bằng RobustScaler.
+Ngoại lai theo quy tắc IQR,BILL_AMT1,2400,8.0,Giữ lại vì là giá trị tài chính/tuổi có thể hợp lệ; giảm ảnh hưởng bằng RobustScaler.
+Ngoại lai theo quy tắc IQR,BILL_AMT2,2395,7.98,Giữ lại vì là giá trị tài chính/tuổi có thể hợp lệ; giảm ảnh hưởng bằng RobustScaler.
+Ngoại lai theo quy tắc IQR,BILL_AMT3,2469,8.23,Giữ lại vì là giá trị tài chính/tuổi có thể hợp lệ; giảm ảnh hưởng bằng RobustScaler.
+Ngoại lai theo quy tắc IQR,BILL_AMT4,2622,8.74,Giữ lại vì là giá trị tài chính/tuổi có thể hợp lệ; giảm ảnh hưởng bằng RobustScaler.
+Ngoại lai theo quy tắc IQR,BILL_AMT5,2725,9.08,Giữ lại vì là giá trị tài chính/tuổi có thể hợp lệ; giảm ảnh hưởng bằng RobustScaler.
+Ngoại lai theo quy tắc IQR,BILL_AMT6,2693,8.98,Giữ lại vì là giá trị tài chính/tuổi có thể hợp lệ; giảm ảnh hưởng bằng RobustScaler.
+Ngoại lai theo quy tắc IQR,PAY_AMT1,2745,9.15,Giữ lại vì là giá trị tài chính/tuổi có thể hợp lệ; giảm ảnh hưởng bằng RobustScaler.
+Ngoại lai theo quy tắc IQR,PAY_AMT2,2714,9.05,Giữ lại vì là giá trị tài chính/tuổi có thể hợp lệ; giảm ảnh hưởng bằng RobustScaler.
+Ngoại lai theo quy tắc IQR,PAY_AMT3,2598,8.66,Giữ lại vì là giá trị tài chính/tuổi có thể hợp lệ; giảm ảnh hưởng bằng RobustScaler.
+Ngoại lai theo quy tắc IQR,PAY_AMT4,2994,9.98,Giữ lại vì là giá trị tài chính/tuổi có thể hợp lệ; giảm ảnh hưởng bằng RobustScaler.
+Ngoại lai theo quy tắc IQR,PAY_AMT5,2945,9.82,Giữ lại vì là giá trị tài chính/tuổi có thể hợp lệ; giảm ảnh hưởng bằng RobustScaler.
+Ngoại lai theo quy tắc IQR,PAY_AMT6,2958,9.86,Giữ lại vì là giá trị tài chính/tuổi có thể hợp lệ; giảm ảnh hưởng bằng RobustScaler.
+Phân bố lớp mục tiêu,default_next_month=0,23364,77.88,"Chia stratified; giữ nguyên tỷ lệ lớp, không nhân bản dữ liệu."
+Phân bố lớp mục tiêu,default_next_month=1,6636,22.12,"Chia stratified; giữ nguyên tỷ lệ lớp, không nhân bản dữ liệu."
+Nguy cơ rò rỉ từ định danh,ID,30000,100.0,Loại khỏi đặc trưng (duy nhất 30000/30000 giá trị).
+Rò rỉ trực tiếp từ biến tương lai,Biến đầu vào,0,0.0,Không phát hiện biến tương lai; chỉ giữ các thông tin có sẵn trước thời điểm dự báo.
